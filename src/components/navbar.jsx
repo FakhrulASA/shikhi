@@ -4,13 +4,13 @@ class Navbar extends Component {
   state = {};
   render() {
     return (
-      <header>
-        <div class="collapse bg-dark" id="navbarHeader">
+      <header class="mb-2">
+        <div class="collapse bg-dark " id="navbarHeader">
           <div class="container my-auto">
             <div class="row my-auto ">
               <div class="col-sm-12 d-flex justify-content-center  ">
                 <ul class="list-unstyled m-2 ">
-                  <li>
+                  <li class="ml-3">
                     <a href="#" class="text-white row ">
                       <svg
                         width="1.4em"
@@ -32,7 +32,7 @@ class Navbar extends Component {
                       <h5>courses</h5>
                     </a>
                   </li>
-                  <li>
+                  <li class="ml-3">
                     <a href="#" class="text-white row ">
                       <svg
                         width="1.4em"
@@ -48,7 +48,7 @@ class Navbar extends Component {
                       <h5>services</h5>
                     </a>
                   </li>
-                  <li>
+                  <li class="ml-3">
                     <a href="#" class="text-white row ">
                       <svg
                         width="1.4em"
@@ -69,6 +69,11 @@ class Navbar extends Component {
                       </svg>{" "}
                       <h5>dashboard</h5>
                     </a>
+                  </li>
+                  <li>
+                    <button type="button" class="btn btn-light mt-3">
+                      Register/Login
+                    </button>
                   </li>
                 </ul>
               </div>
@@ -93,6 +98,7 @@ class Navbar extends Component {
               </svg>
               <strong>&nbsp; shikhi.codes</strong>
             </a>
+
             <button
               class="navbar-toggler"
               type="button"
