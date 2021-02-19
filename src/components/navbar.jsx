@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <header class="mb-2">
-        <div class="collapse bg-dark " id="navbarHeader">
+        <div class="collapse bg-dark enter_title  " id="navbarHeader">
           <div class="container my-auto">
             <div class="row my-auto ">
               <div class="col-sm-12 d-flex justify-content-center  ">
